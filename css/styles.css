@@ -392,6 +392,7 @@ li {
 /*=====================================================================================*/
 .benefits {
     background: #FDF8F5;
+    margin: 65px 0;
 }
 
 .benefits .container {
@@ -421,4 +422,32 @@ li {
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
+}
+/*=====================================================================================*/
+/* promo */
+/*=====================================================================================*/
+.promo .container {
+    display: flex;
+    gap: 32px;
+}
+
+.promo__item {
+    width: 50%;
+}
+
+.promo__item h3 {
+    padding-top: 45px;
+}
+
+.promo__item p {
+    margin-bottom: 20px;
+}
+
+.promo__item .btn {
+    margin-top: 30px;
+}
+
+.promo__item img {
+    width: 100%;
+    max-height: 600px;
 }
