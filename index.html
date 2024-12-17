@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudesshape</title>
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,400;0,500;0,700;1,700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Стили Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- Ваши стили -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Dudeshape</div>
+            <nav class="nav">
+                <ul class="nav__items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products </a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <ul class="header__actions">
+                <li>
+                    <a href="#">
+                        <img src="./img/profile.svg" alt="profile">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/buy.svg" alt="basket">
+                    </a>
+                </li>
+                <li>
+                    <button class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__item">
+                <h1 class="title">Get Your Best Cosmetic Products Here</h1>
+                <p class="hero__text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+                <form class="search">
+                    <input type="text" name="search" placeholder="Search..." aria-label="Search products">
+                    <button class="search__btn" type="submit">
+                        <img src="./img/Search.svg" alt="search">
+                    </button>
+                </form>
+                <button class="btn" type="button">Shop Now</button>
+            </div>
+            <div class="hero__item">
+                <div class="my-slider1">
+                    <div class="my-slider1__img">
+                        <img src="./img/slider1.png" alt="img">
+                    </div>
+                    <div class="my-slider1__img">
+                        <img src="./img/slider11.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подключение слайдера -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
