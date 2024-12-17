@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth
+}
+
 body {
     font-family: "Red Hat Display", sans-serif;
     font-size: 20px;
@@ -563,4 +567,103 @@ li {
     width: 23px;
     height: 23px;
     background: url('../img/next2.svg') 0 0/auto 100% no-repeat;
+}
+/*=====================================================================================*/
+/* footer */
+/*=====================================================================================*/
+.footer {
+    margin-top: 65px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #FAFAFA;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 60px;
+}
+
+.footer h3 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.footer .search {
+    width: 386px;
+    max-width: 386px;
+}
+
+.footer .search input {
+    width: 73%;
+    height: 100%;
+}
+
+.footer .search__btn {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom-item:first-child {
+    max-width: 326px;
+}
+
+.footer__bottom-item .logo {
+    display: inline;
+}
+
+.footer__bottom-item p {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 40px;
+}
+
+.footer__bottom-item h6 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 48px;
+}
+
+.footer__bottom-item a {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer__nav-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__nav-items li {
+    height: 20px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social {
+    display: flex;
+    gap: 26px;
+}
+
+.social__item img {
+    width: 13px;
+    height: 13px;
 }
