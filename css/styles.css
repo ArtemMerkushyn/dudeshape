@@ -32,7 +32,6 @@ li {
 .container {
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 5px;
 }
 
 .title {
@@ -85,6 +84,7 @@ li {
     color: #FFFFFF;
     padding: 16px 32px;
     background: #402F2C;
+    border: 1px solid #402F2C;
 }
 /*=====================================================================================*/
 /* header */
@@ -271,8 +271,6 @@ li {
     top: 0;
     left: 0;
 }
-
-
 /*=====================================================================================*/
 /* partners */
 /*=====================================================================================*/
@@ -288,4 +286,105 @@ li {
 .partners img  {
     height: 24px;
     width: auto;
+}
+/*=====================================================================================*/
+/* popular */
+/*=====================================================================================*/
+
+.popular .container .popular__item:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 60px;
+}
+
+.popular__text {
+    width: 100%;
+    max-width: 714px;
+}
+
+.popular__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.popular__link span {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    white-space: nowrap;
+    position: relative;
+}
+
+.popular__link span::before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #222222;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+}
+
+.popular__link img {
+    width: 24px;
+    height: 24px;
+}
+
+.popular .container .popular__item:last-child {
+    display: flex;
+    gap: 40px;
+}
+
+.popular__product {
+    width: 50%;
+    border: 1px solid #685A5230;
+    padding-bottom: 32px;
+}
+
+.popular__product img {
+    width: 100%;
+    max-height: 484px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 20px;
+}
+
+.popular__product h5 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500;
+    color: #222222;
+    padding: 0 32px;
+    margin-bottom: 16px;
+}
+
+.popular__product p {
+    padding: 0 32px;
+    margin-bottom: 48px;
+}
+
+.popular__product-wrapper {
+    position: relative;
+    display: flex;
+    gap: 24px;
+    padding: 0 32px;
+}
+
+.popular__product-wrapper span {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #222222;
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform: translateY(-50%);
+}
+
+.popular__product-wrapper .btn:nth-child(2) {
+    background: transparent;
+    border: 1px solid #685A5275;
+    color: #402F2C;
 }
