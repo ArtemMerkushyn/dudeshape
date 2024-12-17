@@ -12,6 +12,10 @@ body {
     color: #555555;
 }
 
+section:not(.hero) {
+    padding: 65px 0;
+}
+
 button {
     cursor: pointer;
 }
@@ -28,6 +32,7 @@ li {
 .container {
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 5px;
 }
 
 .title {
@@ -185,6 +190,10 @@ li {
     background: #F9F6F5;
 }
 
+.hero h1 {
+    padding-top: 40px;
+}
+
 .hero .container {
     display: flex;
 }
@@ -263,13 +272,20 @@ li {
     left: 0;
 }
 
-/* .slick-prev::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
-    background: red;
-} */
+
+/*=====================================================================================*/
+/* partners */
+/*=====================================================================================*/
+.partners .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0;
+    margin-top: 65px;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.partners img  {
+    height: 24px;
+    width: auto;
+}
